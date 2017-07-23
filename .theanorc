@@ -1,0 +1,10 @@
+[cuda]
+root=/usr/local/cuda-8.0/bin
+[global]
+floatX=float32
+device=gpu5
+force_device=False
+[nvcc]
+fastmath=True
+[lib]
+cnmem=0.25
